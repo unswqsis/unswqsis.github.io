@@ -1,0 +1,74 @@
+html, body {
+	margin: 0;
+}
+
+.logo-font {
+	font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.top {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	color: #4d4d4d;
+	font-size: 18px;
+	width: 100%;
+	height: 50px;
+	padding-left: 10px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	backdrop-filter: blur(15px);
+}
+
+.top .inner {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.top .logo {
+	height: 32px;
+	image-rendering: crisp-edges;
+}
+
+.top .title {
+	margin-left: 10px;
+}
+
+.top .links {
+	display: flex;
+	margin-left: auto;
+	margin-right: 15px;
+}
+
+.top .links * {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.top .links .button {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	border-radius: 1000px;
+	background-color: #e556a4;
+	color: white;
+}
+
+.banner {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.banner .title {
+	font-size: 50px;
+}
