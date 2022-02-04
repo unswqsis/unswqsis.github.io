@@ -1,2 +1,7 @@
-# unswqsis.github.io
-A temporary website for UNSW Queer Students in STEM
+# UNSW Queer Students in STEM
+
+The website for UNSW Queer Students in STEM.
+
+## Running
+
+Open `index.html`.
