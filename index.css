@@ -137,7 +137,6 @@ a {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	padding: 15px;
 	padding-top: calc(15px + 50px);
 	box-sizing: border-box;
