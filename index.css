@@ -119,7 +119,7 @@ a {
 	color: hsl(327, 73%, 42%);
 }
 
-.top .links .button {
+.top .links .button, .button2 {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 4px;
@@ -130,8 +130,22 @@ a {
 	margin: 0;
 }
 
-.top .links .button:hover {
+.top .links .button:hover, .button2:hover {
 	background-color: hsl(327, 73%, 47%);
+}
+
+p .button2 {
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.button2 img {
+	height: 20px;
+	margin: 0;
+	margin-right: 3px;
 }
 
 .banner {
@@ -178,7 +192,7 @@ h2 {
 
 .social {
 	height: 48px;
-	margin: 7px;
+	margin: 10px;
 	transform: scale(1);
 	transition: 200ms;
 	pointer-events: all;
@@ -190,7 +204,7 @@ h2 {
 
 .discord {
 	position: relative;
-	top: 5px;
+	top: 3px;
 	height: 54px;
 }
 
