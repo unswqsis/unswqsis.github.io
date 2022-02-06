@@ -98,8 +98,10 @@ img {
 	transition: 200ms;
 }
 
-.top .links > a:hover,  .home-link:hover {
-	color: hsl(327, 73%, 62%);
+@media (hover: hover) {
+	.top .links > a:hover,  .home-link:hover {
+		color: hsl(327, 73%, 62%);
+	}
 }
 
 a {
@@ -217,7 +219,7 @@ h2 {
 	transition: 200ms;
 }
 
-@media (min-width: 650px) {
+@media (hover: hover) {
 	.events a:hover {
 		transform: scale(1.03);
 		box-shadow: 0px 10px 15px 5px hsla(0, 0%, 0%, 0.15);
