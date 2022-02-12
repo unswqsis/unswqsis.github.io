@@ -260,6 +260,19 @@ h2 {
 	height: 100%;
 }
 
+.update {
+	display: inline-block;
+	margin-top: 20px;
+	background: hsl(147, 73%, 96%);
+	border-style: solid;
+	border-width: 1px;
+	border-color: hsl(147, 73%, 38%);
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .section {
 	position: relative;
 	top: -50px;
