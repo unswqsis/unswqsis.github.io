@@ -55,7 +55,6 @@ img {
 
 .top .logo {
 	height: 32px;
-	image-rendering: crisp-edges;
 	margin-left: 15px;
 	margin-right: 10px;
 }
@@ -151,7 +150,6 @@ a {
 	position: relative;
 	bottom: 1px;
 	vertical-align: middle;
-	image-rendering: crisp-edges;
 }
 
 .button-sparc {
@@ -172,6 +170,10 @@ a {
 
 .button-facebook {
 	background: hsl(213, 93%, 52%);
+}
+
+.button-facebook img {
+	bottom: 3px;
 }
 
 .button-facebook:hover {
@@ -232,7 +234,6 @@ h2 {
 	transform: scale(1);
 	transition: 200ms;
 	pointer-events: all;
-	image-rendering: crisp-edges;
 }
 
 .social:hover {
