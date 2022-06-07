@@ -19,16 +19,16 @@ img {
 	pointer-events: none;
 }
 
-.top, h1, h2 {
+header, h1, h2 {
 	font-family: 'Zen Maru Gothic', sans-serif;
 }
 
-.top, .banner, .content, .footer {
+header, .banner, main, footer {
 	display: flex;
 	justify-content: center;
 }
 
-.top {
+header {
 	position: fixed;
 	color: hsl(0, 0%, 30%);
 	font-size: 18px;
@@ -44,64 +44,64 @@ img {
 	max-width: 100%;
 }
 
-.top .inner, .socials {
+header .inner, .socials {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.top .home-link {
+header .home-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.top .logo {
+header .logo {
 	height: 32px;
 	margin-left: 15px;
 	margin-right: 10px;
 }
 
 @media (max-width: 650px) {
-	.top .title {
+	header .title {
 		display: none;
 	}
 }
 
-.top .links {
+header nav {
 	display: flex;
 	margin-left: auto;
 }
 
 @media (max-width: 650px) {
-	.top .links {
+	header nav {
 		flex-grow: 1;
 	}
 }
 
 @media (max-width: 650px) {
-	.top .links {
+	header nav {
 		margin-left: initial;
 	}
 }
 
-.top .links * {
+header nav * {
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
 @media (max-width: 650px) {
-	.top .links * {
+	header nav * {
 		flex-grow: 1;
 	}
 }
 
-.top .links > a, .home-link {
+header nav > a, .home-link {
 	transition: 200ms;
 }
 
 @media (hover: hover) {
-	.top .links > a:hover,  .home-link:hover {
+	header nav > a:hover,  .home-link:hover {
 		color: hsl(327, 73%, 62%);
 	}
 }
@@ -121,7 +121,7 @@ a {
 	color: hsl(327, 73%, 42%);
 }
 
-.top .links .button, .button-large {
+header nav .button, .button-large {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 4px;
@@ -132,7 +132,7 @@ a {
 	margin: 0;
 }
 
-.top .links .button:hover, .button-large:hover {
+header nav .button:hover, .button-large:hover {
 	background-color: hsl(327, 73%, 47%);
 }
 
@@ -252,7 +252,7 @@ h2 {
 	height: 43px;
 }
 
-.content {
+main {
 	padding: 5px;
 }
 
@@ -322,36 +322,36 @@ h2 {
 	top: -49px;
 }
 
-.footer {
+footer {
 	background-color: white;
 	padding: 20px;
 	margin-top: 30px;
 }
 
-.footer .inner {
+footer .inner {
 	display: flex;
 	align-items: center;
 }
 
-.footer .inner * {
+footer .inner * {
 	display: inline-block;
 	flex-grow: 1;
 }
 
-.footer .inner .left {
+footer .inner .left {
 	text-align: left;
 }
 
-.footer .inner .right {
+footer .inner .right {
 	text-align: right;
 }
 
 @media (max-width: 650px) {
-	.footer .inner {
+	footer .inner {
 		flex-wrap: wrap;
 	}
 
-	.footer .inner * {
+	footer .inner * {
 		text-align: center !important;
 	}
 }
