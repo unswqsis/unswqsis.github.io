@@ -136,6 +136,19 @@ header nav .button:hover, .button-large:hover {
 	background-color: hsl(327, 71%, 33%);
 }
 
+.events .button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(221, 34, 137);
+	color: white;
+	/* width: 150px; */
+	height: 25px;
+}
+
+.events .button:hover {
+	background-color: hsl(327, 71%, 33%);
+}
+
 .button-large {
 	padding: 10px;
 	padding-left: 15px;
@@ -224,6 +237,10 @@ h2 {
 	margin-bottom: 20px;
 }
 
+#pastTitle {
+	margin-top: 70px;
+}
+
 .social {
 	height: 48px;
 	margin: 10px;
@@ -234,18 +251,6 @@ h2 {
 
 .social:hover {
 	transform: scale(1.1);
-}
-
-.discord {
-	position: relative;
-	top: 3px;
-	height: 54px;
-}
-
-.linkedin {
-	position: relative;
-	top: 1px;
-	height: 43px;
 }
 
 main {
@@ -297,20 +302,6 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 20px;
-}
-
-.update {
-	display: inline-block;
-	background: hsl(147, 73%, 96%);
-	border-style: solid;
-	border-width: 1px;
-	border-color: hsl(147, 73%, 38%);
-	border-radius: 10px;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: 20px;
-	margin-bottom: 0;
 }
 
 .section {
