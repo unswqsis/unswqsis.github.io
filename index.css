@@ -102,7 +102,7 @@ header nav > a, .home-link {
 
 @media (hover: hover) {
 	header nav > a:hover,  .home-link:hover {
-		color: hsl(327, 73%, 62%);
+		color: rgb(221, 34, 137);
 	}
 }
 
@@ -113,12 +113,12 @@ a {
 }
 
 .text-link {
-	color: hsl(327, 73%, 62%);
+	color: rgb(221, 34, 137);
 	transition: 200ms;
 }
 
 .text-link:hover {
-	color: hsl(327, 73%, 42%);
+	color: hsl(327, 71%, 33%);
 }
 
 header nav .button, .button-large {
@@ -126,14 +126,14 @@ header nav .button, .button-large {
 	padding-right: 10px;
 	padding-bottom: 4px;
 	border-radius: 1000px;
-	background-color: hsl(327, 73%, 62%);
+	background-color: rgb(221, 34, 137);
 	transition: 200ms;
 	color: white;
 	margin: 0;
 }
 
 header nav .button:hover, .button-large:hover {
-	background-color: hsl(327, 73%, 47%);
+	background-color: hsl(327, 71%, 33%);
 }
 
 .button-large {
@@ -156,11 +156,11 @@ header nav .button:hover, .button-large:hover {
 }
 
 .button-sparc {
-	background: hsl(93, 52%, 46%);
+	background: rgb(88, 129, 50);
 }
 
 .button-sparc:hover {
-	background-color: hsl(93, 52%, 31%);
+	background-color: rgb(64, 93, 36);
 }
 
 .button-discord {
@@ -172,11 +172,7 @@ header nav .button:hover, .button-large:hover {
 }
 
 .button-facebook {
-	background: hsl(213, 93%, 52%);
-}
-
-.button-facebook img {
-	bottom: 3px;
+	background: rgb(37, 116, 223);
 }
 
 .button-facebook:hover {
@@ -338,12 +334,18 @@ footer .inner * {
 	flex-grow: 1;
 }
 
-footer .inner .left {
+footer .inner .contactInfo {
 	text-align: left;
 }
 
-footer .inner .right {
+footer .inner .copyright {
 	text-align: right;
+}
+
+.copyright img {
+	width: 25px;
+	padding-left: 10px;
+	vertical-align: middle;
 }
 
 @media (max-width: 650px) {
