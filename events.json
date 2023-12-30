@@ -1,0 +1,75 @@
+[
+  {
+    "title": "QSIS Badge Making",
+    "location": "Queerspace",
+    "time": "2023-11-02T14:00:00",
+    "desc": "Come learn how to make custom badges with us this Thursday",
+    "facebookLink": "",
+    "image": "img/events/Badge Making.png"
+  },
+  {
+    "title": "QSIS Goes Bouldering",
+    "location": "Sydney Indoor Climbing Gym St Peters",
+    "time": "2023-10-19T12:00:00",
+    "desc": "UNSW QSIS is going bouldering during week 6!! 🧗🏳️‍🌈🏳️‍⚧️",
+    "facebookLink": "",
+    "image": "img/events/Bouldering poster.png"
+  },
+  {
+    "title": "QSIS Games Night + AGM",
+    "location": "Law Building",
+    "time": "2023-09-29T17:00:00",
+    "desc": "Join us for food, games, and crafts at the end of week 4!",
+    "facebookLink": "",
+    "image": "img/events/gamesnight.jpg"
+  },
+  {
+    "title": "Pancake Picnic",
+    "location": "Physics Courtyard",
+    "time": "2023-09-14T14:00:00",
+    "desc": "🌈Welcome back to Term 3!🧚‍♀️🦄 QSIS is hosting a 💗🥞Pancake Picnic🥞💗",
+    "facebookLink": "",
+    "image": "img/events/picnic.jpg"
+  },
+  {
+    "title": "B'Gay Party",
+    "location": "UNSW",
+    "time": "2023-08-02T17:00:00",
+    "desc": "QSIS is having a ✨BIRTHDAY PARTY🌟 on Wednesday in Week 10!",
+    "facebookLink": "",
+    "image": "img/events/party.jpg"
+  },
+  {
+    "title": "DISH with QSIS",
+    "location": "Queerspace",
+    "time": "2023-06-07T15:00:00",
+    "desc": "Welcome to T2 2023. Woohoo!! QSIS is excited to announce a new weekly event.",
+    "facebookLink": "",
+    "image": "img/events/dish.jpg"
+  },
+  {
+    "title": "(Gay)me Night",
+    "location": "UNSW",
+    "time": "2023-03-31T17:00:00",
+    "desc": "QSIS is hosting ✨(Gay)mes Night🌟 on Friday of Week 7!",
+    "facebookLink": "",
+    "image": "img/events/games1.jpg"
+  },
+  {
+    "title": "QC x QSIS x SapphoSoc go to Mardi Pardi",
+    "location": "Roundhouse",
+    "time": "2023-02-24T16:00:00",
+    "desc": "It's that time of year! Get pumped, get proud and get ready to party at the Roundhouse Mardi Pardi",
+    "facebookLink": "",
+    "image": "img/events/mardipardi.jpg"
+  },
+
+  {
+    "title": "QSIS x SCISOC Back to Uni BBQ",
+    "location": "UNSW Quad",
+    "time": "2023-02-16T13:00:00",
+    "desc": "HEY LOOK 😨 QSIS and SCISOC are holding a sausage sizzle 🌭",
+    "facebookLink": "",
+    "image": "/img/events/bbq.jpg"
+  }
+]
