@@ -41,7 +41,6 @@ body {
 }
 
 h1 {
-	font-family: 'Inter', sans-serif;
 	font-weight: normal;
 	font-size: 3rem;
 	margin-bottom: 10px;
@@ -65,7 +64,7 @@ a {
 }
 
 .main-button:hover {
-	background-color: #484848;
+	background-color: #2a2a2a;
 }
 
 .event {
@@ -87,8 +86,8 @@ a {
 }
 
 #past-link {
-	margin:auto;
-  display:block;
+	margin: auto;
+  display: block;
 }
 
 #gallery {
@@ -186,7 +185,6 @@ footer .copyright {
 }
 
 @media (max-width: 650px) {
-
 	header img {
 		width: 50px;
 	}
@@ -221,8 +219,6 @@ footer .copyright {
 
 @media (max-width: 450px) {
 	#banner {
-		padding-top: 5%;
-		padding-bottom: 5%;
 		background-position-x: -15vw;
 	}
 }
