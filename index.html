@@ -47,119 +47,99 @@
 
 	<body>
 		<header>
-			<div class="inner">
 				<a href="#" class="home-link">
 					<img class="logo" src="/img/logo.png" alt="UNSW Queer Students in STEM logo">
-					<div class="title">UNSW Queer Students in STEM</div>
 				</a>
-
 				<nav>
 					<a href="#events">Events</a>
 					<a href="#gallery">Gallery</a>
-					<a href="#about">About</a>
-					<div>
-						<a href="/join" target="_blank" class="button">Join</a>
-					</div>
+					<a href="/join" target="_blank">Join</a>
 				</nav>
-			</div>
 		</header>
 
-		<div class="banner">
-			<div class="inner">
-				<h1>
-					Science, Technology, Engineering, Maths, Pride.
-				</h1>
-
-				<p>
-					UNSW Queer Students in STEM is a social society that aims to support all LGBTQIA+ identifying STEM students, and develop a comprehensive community.
-				</p>
-
-				<p>
-					<a href="/join" target="_blank" class="button-large button-sparc">
-						<img src="/img/spArc.png"> Join on SpArc
+		<div id="banner">
+			<section id="banner-text">
+				<h1>UNSW Queer Students in STEM</h1>
+				<p id="desc">A social society that aims to support all LGBTQIA+ identifying STEM students and develop a comprehensive community.</p>
+				<button class="main-button">Join</button>
+				<div id="socials">
+					<a href="/join">
+						<img src="/img/spArc.png" alt="SpArc Icon">
+					</a> 
+					<a href="https://www.facebook.com/UNSWQSIS">
+						<img src="/img/facebook.png" alt="Facebook Icon">
+					</a> 
+					<a href="https://www.instagram.com/unswqsis/">
+						<img src="/img/instagram.png" alt="Instagram Icon">
 					</a>
-					<a href="/discord" target="_blank" class="button-large button-discord">
-						<img src="/img/discord.png"> Join on Discord
+					<a href="/discord">
+						<img src="/img/discord.png" alt="Discord Icon">
 					</a>
-					<a href="https://www.facebook.com/UNSWQSIS" target="_blank" class="button-large button-facebook">
-						<img src="/img/facebook.png"> Follow on Facebook
-					</a>
-				</p>
-			</div>
+				</div>
+			</section>
 		</div>
 
-		<main>
-			<div class="inner">
-				<div id="events" class="section"></div>
-				<a name="#events"><h2>Upcoming Events</h2></a>
-
-				<div class="events">
-					<a href="https://fb.me/e/400Jv4577" target="_blank">
-						<img src="img/events/Badge Making.png" alt="QSIS Badge Making">
+		<section>
+			<a name="#events">
+				<h2>Upcoming Events</h2>
+			</a>
+			<div id="upcoming-events" class="event-box">
+				<article id="soon" class="event">
+					<img src="/img/events/soon.jpg" alt="Rainbow Background">
+					<h3>Follow us on Facebook to hear about future events!</h3>
+					<a href="https://www.facebook.com/UNSWQSIS">
+						<button class="main-button">Facebook</button>
 					</a>
-					
-					<a class="soon" href="https://www.facebook.com/UNSWQSIS" target="_blank">
-						<div>
-							Follow our Facebook page to hear about more upcoming events!
-						</div>
-					</a>
-				</div>
-
-				<div class="section"></div>
-				<a name="#events"><h2>Past Events</h2></a>
-
-				<div class="events">
-
-					<a href="https://fb.me/e/1yjNujHJN" target="_blank">
-						<img src="img/events/Bouldering poster.png" alt="QSIS Goes Bouldering">
-					</a>
-
-					<a href="https://fb.me/e/2PVySYn4c" target="_blank">
-						<img src="img/events/gamesnight.jpg" alt="QSIS Games Night + AGM">
-					</a>
-
-					<a href="https://fb.me/e/1nZINo9qC" target="_blank">
-						<img src="img/events/picnic.jpg" alt="Pancake Picnic">
-					</a>
-
-					<a href="https://fb.me/e/1nZINo9qC" target="_blank">
-						<img src="img/events/party.jpg" alt="B'Gay Party">
-					</a>
-
-					<a href="/pastEvents.html" class="button">See More</a>
-
-				</div>
-
-				<div id="gallery" class="section"></div>
-				<a name="#gallery"><h2>Gallery</h2></a>
-
-				<p>Coming soon...</p>
-
-				<div id="about" class="section"></div>
-				<a name="#about"><h2>About</h2></a>
-
-				<p>Coming soon...</p>
+				</article>
 			</div>
-		</main>
+		</section>
+
+		<section>
+			<h2>Past Events</h2>
+			<div id="past-events" class="event-box">
+			</div>
+			<a href="/pastEvents.html">
+				<button class="main-button" id="past-link">See more past events</button>
+			</a>
+		</section>
+
+		<section>
+			<a name="#gallery">
+				<h2>Gallery</h2>
+			</a>
+			<div id="gallery">
+				<div class="gallery-section">
+					<img src="img/gallery/1.jpg" alt="A group of people sit at a picnic table holding a sign that reads Queer Students in STEM">
+					<img src="img/gallery/2.jpg" alt="A group of people sitting in a circle on the floor">
+				</div>
+				<div class="gallery-section">
+					<img src="img/gallery/4.jpg" alt="A person holding a spatula behind a grill that has pancakes on it">
+					<img src="img/gallery/5.jpg" alt="People standing around tables talking">
+				</div>
+				<div class="gallery-section">
+					<img src="img/gallery/3.jpg" alt="A group of people wearing masks on a lawn holding a sign that reads Queer Students in STEM">
+					<img src="img/gallery/6.jpg" alt="People watching a presentation titled Pride in Science Panel">
+					<img src="img/gallery/7.png" alt="People standing in a climbing gym with two signs reading CSE society and Queer Students in STEM">
+				</div>
+			</div>
+		</section>
 
 		<footer>
-			<div class="inner">
-				<div class="contactInfo">
-					<a class="text-link" href="mailto:unswqsis@gmail.com" target="_blank">
-						Email
-					</a> • <a class="text-link" href="https://github.com/unswqsis/unswqsis.github.io" target="_blank">
-						GitHub
-					</a> • <a class="text-link" href="https://www.linkedin.com/company/unsw-queer-students-in-stem" target="_blank">
-						LinkedIn
-					</a>
-				</div>
-				<div class="copyright">
-					<p>
-						© UNSW Queer Students in STEM 2023
-					</p>
-					<img src="/img/arcClubs.png">
-				</div>
+			<div class="contactInfo">
+				<a class="text-link" href="mailto:unswqsis@gmail.com" target="_blank">
+					Email
+				</a> • <a class="text-link" href="https://github.com/unswqsis/unswqsis.github.io" target="_blank">
+					GitHub
+				</a> • <a class="text-link" href="https://www.linkedin.com/company/unsw-queer-students-in-stem" target="_blank">
+					LinkedIn
+				</a>
+			</div>
+			<div class="copyright">
+				<p>© UNSW Queer Students in STEM 2024</p>
+				<img src="/img/arcClubs.png">
 			</div>
 		</footer>
+
+		<script type="module" src="index.js"></script>
 	</body>
 </html>
