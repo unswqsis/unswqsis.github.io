@@ -1,10 +1,14 @@
 html {
 	scroll-behavior: smooth;
 }
+
 #banner {
 	background-image: url(img/animatedlogo.gif);
 	background-size: cover;
 	background-position-x: 22vw;
+	display: flex;
+	padding-top: 14%;
+	padding-bottom: 14%;
 }
 
 #banner-text {
@@ -12,21 +16,10 @@ html {
 	width: 45%;
 }
 
-#banner-text p {
-	font-size: large;
-	margin: 0;
-}
-
 #banner-text button {
 	font-size: 1.4rem;
 	margin-top: 5%;
 	margin-bottom: 5%;
-}
-
-#banner {
-	display: flex;
-	padding-top: 14%;
-	padding-bottom: 14%;
 }
 
 #socials img {
@@ -36,8 +29,11 @@ html {
 
 #desc {
 	display: block;
+	font-size: large;
+	margin: 0;
 }
- body {
+
+body {
 	font-family: 'Inter', sans-serif;
 	background-color: #fcfcff;
 	margin-left: 5%;
