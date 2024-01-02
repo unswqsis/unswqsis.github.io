@@ -1,6 +1,11 @@
 html {
 	scroll-behavior: smooth;
 }
+#banner {
+	background-image: url(img/animatedlogo.gif);
+	background-size: cover;
+	background-position-x: 22vw;
+}
 
 #banner-text {
 	text-align: left;
@@ -34,7 +39,7 @@ html {
 }
  body {
 	font-family: 'Inter', sans-serif;
-	background-color: white;
+	background-color: #fcfcff;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -134,7 +139,7 @@ nav a {
 }
 
 footer {
-	background-color: white;
+	background-color: #fcfcff;
 	padding: 20px;
 	margin-top: 30px;
 }
@@ -158,9 +163,19 @@ footer .copyright {
 	padding-left: 10px;
 }
 
+@media (max-width: 1000px) {
+	#banner {
+		background-position-x: 5vw;
+	}
+}
+
 @media (max-width: 850px) {
 	#banner-text {
 		width: 55%;
+	}
+
+	#banner {
+		background-position-x: 1vw;
 	}
 
 	#socials img {
@@ -183,6 +198,7 @@ footer .copyright {
 	#banner {
 		padding-top: 5%;
 		padding-bottom: 5%;
+		background-position-x: 15vw;
 	}
 
 	#banner-text {
@@ -204,5 +220,13 @@ footer .copyright {
 
 	footer {
 		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 450px) {
+	#banner {
+		padding-top: 5%;
+		padding-bottom: 5%;
+		background-position-x: -15vw;
 	}
 }
