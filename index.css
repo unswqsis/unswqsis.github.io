@@ -94,6 +94,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
+	margin-bottom: 25px;
 }
 
 .gallery-section {
