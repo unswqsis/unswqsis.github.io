@@ -1,5 +1,29 @@
 [
   {
+    "title": "Mardi Gras Watch Party",
+    "location": "Queerspace",
+    "time": "2024-03-02T17:30:00",
+    "desc": "We're holding a little watch party for the Mardi Gras parade in the queer space, for those who want to be away from the crowds but still have a night out with friends for Mardi Gras.",
+    "facebookLink": "https://fb.me/e/7dKp1A4Js",
+    "image": "img/events/watchparty.png"
+  },
+  {
+    "title": "QC x QSIS x SapphoSoc go to Mardi Pardi",
+    "location": "Roundhouse",
+    "time": "2024-02-29T16:00:00",
+    "desc": "Get pumped, get proud and get ready to party at the Roundhouse Mardi Pardi 🌈",
+    "facebookLink": "https://www.instagram.com/p/C3hEJ2PrLY_/",
+    "image": "img/events/mardipardi24.png"
+  },
+  {
+    "title": "QSIS DISH: Lets Talk... Pride on the Quad",
+    "location": "Quadrangle Lawn",
+    "time": "2024-02-28T13:00:00",
+    "desc": "DISH is a space for queer students to meet new people, build community and dish about the frustrations of uni life.",
+    "facebookLink": "https://fb.me/e/3C2gh6Zhm",
+    "image": "img/events/Dish3.png"
+  },
+  {
     "title": "QSIS DISH: Lets Talk... Uni Life",
     "location": "Queerspace",
     "time": "2024-02-21T13:00:00",
