@@ -98,9 +98,9 @@ a {
 }
 
 .gallery-section {
-	flex: 30%;
-  max-width: 30%;
-  padding: 0 4px;
+	flex: 33%;
+  max-width: 32%;
+  padding: 0px 4px;
 	margin-left: auto;
 	margin-right: auto;
 }
