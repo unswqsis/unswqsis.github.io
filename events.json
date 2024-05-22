@@ -1,11 +1,35 @@
 [
+{
+  "title": "Queerball 2024",
+  "location": "Queerspace",
+  "time": "2024-06-28T19:00:00",
+  "desc": "Queer Collective, Queer Students in STEM and Sapphic Society are putting together a social experience for society members and invited friends/partners. ",
+  "facebookLink": "https://www.facebook.com/events/1127692715028523/",
+  "image": "img/events/ball.png"
+},
+{
+  "title": "QSIS DISH: Discussing DISH",
+  "location": "Queerspace",
+  "time": "2024-05-30T11:00:00",
+  "desc": "DISH is back for T2, now on Thursdays at 11 am!",
+  "facebookLink": "https://www.facebook.com/events/1390779454932616/",
+  "image": "img/events/dish2421.png"
+},
+{
+  "title": "QSIS DISH: Lets Talk... Sewing!",
+  "location": "Queerspace",
+  "time": "2024-04-10T14:00:00",
+  "desc": "Join us for DISH this week as we work on sewing projects together!",
+  "facebookLink": "https://fb.me/e/1WwhG7hW8",
+  "image": "img/events/dish2418.png"
+  },
   {
   "title": "QSIS DISH: Lets Talk... Presentations!",
   "location": "Queerspace",
   "time": "2024-03-27T14:00:00",
   "desc": "Join us for DISH this week as we present fun PowerPoint presentations!",
   "facebookLink": "",
-  "image": "img/events/dish247.png"
+  "image": "img/events/Dish247.png"
   },
   {
     "title": "QSIS Goes to The Australian Museum",
